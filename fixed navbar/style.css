@@ -1,0 +1,31 @@
+/* By default vh kuch padding and margin le raha tha use 0 kia hai. */
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    font-size: 1.8rem;
+    background-color: #645DD7;
+    position:fixed;
+    width:100%;
+}
+nav ul li{
+    display: inline-block;
+    padding:10px 10px;
+    
+}
+/* sign up ko right side me le jaane ke lia last-child ka use krte hai. use 
+  absolute position de denge joki nav ke respect me position legi*/
+  li:last-child{
+      position:absolute;
+      right: 20px;
+  }
+/* list item se circular disk remove krne ke lia */
+ul{
+     list-style: none;
+}
+/* Underline remove krne ke lia  */
+a{
+    text-decoration: none;
+    color:white;
+}
